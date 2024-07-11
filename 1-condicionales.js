@@ -12,3 +12,17 @@
  */
 
 console.log('ejercicio 1') //no quitar este console.log, empezar debajo el ejercicio
+
+let simbolo = window.prompt("Introduce uno de los siguientes simbolos (+, -, x, /):");
+
+if (simbolo === '+') {
+    console.log('sumar');
+} else if (simbolo === '-') {
+    console.log('restar');
+} else if (simbolo === 'x') {
+    console.log('multiplicar');
+} else if (simbolo === '/') {
+    console.log('dividir');
+} else {
+    console.log('no conozco esa operación');
+}
